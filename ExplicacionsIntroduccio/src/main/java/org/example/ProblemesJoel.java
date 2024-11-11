@@ -825,16 +825,10 @@ class MaximMatriuCorregit {
     }
 }
 
-
-
-
 class IndexOfMatriu{
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
 
-        int casos = ent.nextInt();
-
-        while (casos-- > 0) {
             int files = ent.nextInt();
             int columnes = ent.nextInt();
             int [] matriu = new int[files*columnes];
@@ -851,8 +845,5 @@ class IndexOfMatriu{
                 }
             }
             System.out.printf("%d %d %n", fMax , cMax);
-        }
-
-
     }
 }
